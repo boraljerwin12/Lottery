@@ -1,7 +1,10 @@
 # Lottery
 
 1. Simple Lottery
- •Simple Lottery in Ethereum
+ 
+ The bets made by the participants will be converted into a random hash and the play is only 1 time so it will only have a 1 winner. 1 transaction per 1 player and they don't need to bet a number or combinations of number just to be in a bet.
+  
+ In Ethereum. In Hyperledger
  
  •Simple Lottery in Hyper
  
