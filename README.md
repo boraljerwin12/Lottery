@@ -5,7 +5,8 @@
  The bets made by the participants will be converted into a random hash and the play is only 1 time so it will only have a 1 winner. 1 transaction per 1 player and they don't need to bet a number or combinations of number just to be in a bet.
   
    •In Ethereum
- Every ticket is worth 0.01n ether and after the contract is deployed, there is a certain amount of time programmed for it to close too. Once closed, any transactions will never be counted or accepted. 5 minutes after closing, the contract deployer can pick the winner in the system from all the participants randomly and the price depends to how many players are present there.
+
+Every ticket is worth 0.01n ether and after the contract is deployed, there is a certain amount of time programmed for it to close too. Once closed, any transactions will never be counted or accepted. 5 minutes after closing, the contract deployer can pick the winner in the system from all the participants randomly and the price depends to how many players are present there.
  
    In Hyperledger
  It is also the same that there'll going to have a time duration for executing the program but the difference is that, the participants will have a chaincode for them in order to play. The thing here is that Hyperledger is a private blockchain so you should have to be in a certain group in hyperledger, we can say that only a specific area are able to do things inside of a certain program.
