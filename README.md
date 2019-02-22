@@ -6,7 +6,7 @@
   
    •In Ethereum
 
-Every ticket is worth 0.01n ether and after the contract is deployed, there is a certain amount of time programmed for it to close too. Once closed, any transactions will never be counted or accepted. 5 minutes after closing, the contract deployer can pick the winner in the system from all the participants randomly and the price depends to how many players are present there.
+Every ticket is worth 0.01 ether and after the contract is deployed, there is a certain amount of time programmed for it to close too. Once closed, any transactions will never be counted or accepted. 5 minutes after closing, the contract deployer can pick the winner in the system from all the participants randomly and the price depends to how many players are present there.
  
    •In Hyperledger
    
