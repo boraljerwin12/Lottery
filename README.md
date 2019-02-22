@@ -22,7 +22,14 @@ Every ticket is worth 0.01n ether and after the contract is deployed, there is a
    
  The game is divided into 2 processes, 1 is about the lottery deployer and the other is for the players. The deployer's process starts after starting the program. The game will have a specific durations of games depends to how many games the deployers will give. Then there will be a duration for the next round because of checking the winner and it will be notified in deployer's side. The deployer have a choice either to delete or keep the data on that certain game.
  
-3. RNG Lottery
+   •In Hyperledger
+   
+ 
+ 
+ 
+   3. RNG Lottery
+   
+ 
  • RNG Lottery in Ethereum
  
  • RNG Lotteryin Hyperledger
