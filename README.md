@@ -57,4 +57,5 @@ Every ticket is worth 0.01 ether and after the contract is deployed, there is a 
  
  
    Reference
+   
  Ethereum reference: Iyer, K. & Dannen, C. (2018). Building Games with Ethereum Smart Contracts (pp. 171-209). Brooklyn, New York: Apress
