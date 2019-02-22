@@ -23,16 +23,19 @@ Every ticket is worth 0.01 ether and after the contract is deployed, there is a 
  The game is divided into 2 processes, 1 is about the lottery deployer and the other is for the players. The deployer's process starts after starting the program. The game will have a specific durations of games depends to how many games the deployers will give. Then there will be a duration for the next round because of checking the winner and it will be notified in deployer's side. The deployer have a choice either to delete or keep the data on that certain game.
  
    •In Hyperledger
-   
  
+ There are 3 diagrams of Recurring Lottery in Hyperledger: Deployer, Ordere and the User. Deployer will deploy the chaincode and it will wait for the approval of the orderer so that the chaincode shall be endorsed. Then the deployer will be enrolled as an admin to start the game. They can also specify time duration of the game and draw the winner and they have an access to the outcome of games and can delete a game round.
+ 
+ Meanwhile in the User diagram, all players will receive a web app to start betting in the game by enrolling to be able to start. They need to buy tickets in order to join a game and place their own bets. They can check their balance and can decide for their own whether to continue playing after winning or withdrawing the amount from winning.
  
  
    3. RNG Lottery
    
+ RNG Lottery uses commit-reveal sequences for creating random numbers and every user shall submit commitment hash when buying. The commitment hash is a combination of user's address and other numbers which is only related to the user and they need to commit it in order to be a part of the game.
  
- • RNG Lottery in Ethereum
+   •In Ethereum
  
- • RNG Lotteryin Hyperledger
+ Users must register their IP Address and other random numbers that'll be converted into a hash wherein hash will be the gateway to the game. Users will buy tickets using hash and they need to reveal their numbers or else they can't participate to the game during the reveal duration. Then the admin will draw winner randomly to have a winner.
  
 4. Powerball Lottery
  • Powerball Lottery in Ethereum
