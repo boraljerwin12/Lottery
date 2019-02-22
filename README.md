@@ -37,7 +37,24 @@ Every ticket is worth 0.01 ether and after the contract is deployed, there is a 
  
  Users must register their IP Address and other random numbers that'll be converted into a hash wherein hash will be the gateway to the game. Users will buy tickets using hash and they need to reveal their numbers or else they can't participate to the game during the reveal duration. Then the admin will draw winner randomly to have a winner.
  
-4. Powerball Lottery
- • Powerball Lottery in Ethereum
+   •In Hyperledger
  
- • Powerball Lottery in Hyperledger
+ Just like the same in Ethereum, ticket duration upon in buying and deploying chaincode. Duration will be based on reaching certain block for current game measurements. The only difference is that all of the users know each other except for their private hash number, when the block reach the reveal duration, all of them must reveal their secret numbers or they won't be able to participate. Then the game will be the same to other platform.
+ 
+ 
+   4. Powerball Lottery
+   
+ Users will pick six numbers per ticket just like how a normal lottery runs but the difference is that, the first five need to be in the range of 1-69 and the last number which is a special powerball number ranges from 1 to 26 that offers extra rewards. Game is drawed every 3-4 days and the winning tickets consisting of five standard and 1 special powerball number is picked. The prizes are paid based to the number of winning numbers as you picked.
+ 
+   •In Ethereum
+ 
+ User msut first check the maximum number of the powerball before buying a ticket. After buying a ticket worth 0.02 ether, the account will draw from numbers 1-69 on first 5 and 1-26 on the last number. After drawing, users can check winning combinations and users can withdraw the jackpot prize that depends to the winning numbers matched to the user's picked numbers.
+ 
+   •In Hyperledger
+ 
+ It is also the same in Ethereum but the difference is that there are additional patterns in technical areas. First, the deployer must deploy the chaincode in order to have a Powerball game then deploy itself to be an admin. Then it must approve the deployed chaincode and in User's part. They need to register to enter the game. Then the game is also the same as in Ethereum.
+ 
+ 
+ 
+   Reference
+ Ethereum reference: Iyer, K. & Dannen, C. (2018). Building Games with Ethereum Smart Contracts (pp. 171-209). Brooklyn, New York: Apress
